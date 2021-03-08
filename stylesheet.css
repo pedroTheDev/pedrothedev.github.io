@@ -1,0 +1,41 @@
+body {
+  background-color: #1c1c1c;
+}
+.image-container{
+ display:flex;
+ justify-content: center;
+}
+.image{
+  width: 90%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 5%;
+  margin-top: 1rem;
+}
+
+.header{
+  display:flex;
+  justify-content: flex-start;
+  padding: 5rem 5rem 1rem 6rem;
+  color:gray;
+ }
+ .logo{
+   width:4rem;
+   margin-right: 2rem;
+ }
+ 
+ .main{
+  display:grid;
+  grid-template-rows: 3rem 1rem;
+  justify-content: center;
+  text-align: center;
+ }
+ .main h1{
+   color:#c3c4c7;
+   font-size: 3rem;
+ }
+ .main h2{
+  color:#898a8c;
+  font-size: 2rem;
+}
+
