@@ -180,20 +180,21 @@ nav{
   .nav-item-links img{
     color:#b5b0b0;
     margin:1.5vh;
-    width:8vh;
+    width:6vh;
    }
 
-
-   .projects{
+  .projects{
     display:grid;
-    margin:0 0 10vw 0;
+    margin:0;
+    border-radius:10px;
+    color:#898a8c;
   }
   .projects h2{
     margin:0;
-    background-color: black;
+    background-color: #383838;
   }
   .project-container{
-    background-color: white;
+    background-color: #383838;
     display: grid;
     margin:0;
   }
@@ -202,7 +203,7 @@ nav{
     text-align: center;
   }
   .proj-item img{
-    width:1vh;
+    width:7vh;
     margin:1vw;
   }
   
