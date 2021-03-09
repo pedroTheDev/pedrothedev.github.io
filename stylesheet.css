@@ -140,7 +140,7 @@ nav{
     display:flex;
     justify-content: center;
    }
-   
+
    .image{
      width: 100%;
      margin:6vh 0 0 0 ;
@@ -280,11 +280,10 @@ nav{
   }
   
   .offer-ul{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin:0;
+    align-items:flex-start;
+    margin:1.5vh;
     font-size: 4vw;
+    padding:0;
   }
 }
 
