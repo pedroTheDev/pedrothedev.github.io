@@ -103,6 +103,7 @@ nav{
    }
    .image{
      width: 100%;
+     margin:4vh 0 0 0 ;
      position: absolute;
      z-index: -1;
      border-radius: 0;
@@ -113,6 +114,7 @@ nav{
     margin:0;
     color:gray;
     font-size: 3vw;
+    height: 8vh;
    }
    .logo{
      display: none;
@@ -137,29 +139,30 @@ nav{
    nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin:0;
+    margin: 2vh;
   }
   .nav-item{
     background-color: #383838;
     border-radius: 8px;
-    margin-top:6rem;
+    margin:7rem  1vh 0 0;
   }
   
   .nav-item h3{
    color:#898a8c;
-   font-size: 1.5rem;
-   margin:1rem;
+   font-size: 2vh;
+   margin:1vh;
   
   }
   .nav-item h2{
     color:#b5b0b0;
-    margin:1rem;
-    font-size: .75rem;
+    margin:1vh;
+    font-size: 2.6vw;
    }
   
-  .nav-item a{
+  .nav-item img{
     color:#b5b0b0;
-    margin:3rem;
+    margin:.1vh;
+    width:7vh;
    }
 
   .project-container{
