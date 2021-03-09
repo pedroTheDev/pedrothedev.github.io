@@ -161,12 +161,12 @@ nav{
   
   .nav-item img{
     color:#b5b0b0;
-    margin:.1vh;
+    margin:0;
     width:7vh;
    }
 
   .project-container{
-    background-color: black;
+    background-color: white;
     display: grid;
     margin:0;
   }
