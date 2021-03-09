@@ -140,6 +140,7 @@ nav{
     display:flex;
     justify-content: center;
    }
+   
    .image{
      width: 100%;
      margin:6vh 0 0 0 ;
@@ -147,7 +148,6 @@ nav{
      z-index: -1;
      border-radius: 0;
    }
-
 
    .header{
     display:flex;
@@ -157,10 +157,10 @@ nav{
     font-size: 3vw;
     height: 8vh;
    }
+
    .logo{
      display: none;
    }
-
 
    .main{
     display:grid;
@@ -179,7 +179,6 @@ nav{
     font-size: 4vw;
     margin:0
   }
-
 
    nav{
     display: grid;
@@ -227,6 +226,7 @@ nav{
     margin:2.5vh;
     color:#898a8c;
   }
+
   .projects h2{
     margin:0;
     padding: 1vh;
@@ -235,6 +235,7 @@ nav{
     border-top-left-radius: 3px ;
     border-top-right-radius: 3px ;
   }
+
   .project-container{
     background-color: #383838;
     display: grid;
@@ -243,15 +244,18 @@ nav{
     border-bottom-left-radius: 3px ;
     border-bottom-right-radius: 3px ;
   }
+
    .proj-item{
     margin: 0;
     text-align: center;
   }
+
   .proj-item img{
     width:9vh;
     height: 7vh;
     margin:0;
   }
+
   .offer-container{
     display:grid;
     margin:2.5vh;
@@ -265,6 +269,7 @@ nav{
     border-bottom-left-radius: 3px ;
     border-bottom-right-radius: 3px ;
   }
+
   .offer-container h2{
     margin:0;
     padding: 1vh;
