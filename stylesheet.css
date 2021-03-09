@@ -113,7 +113,7 @@ nav{
    }
    .image{
      width: 100%;
-     margin:4vh 0 0 0 ;
+     margin:6vh 0 0 0 ;
      position: absolute;
      z-index: -1;
      border-radius: 0;
@@ -202,11 +202,15 @@ nav{
     margin:0;
     background-color: #383838;
     font-size: 5vw;
+    border-top-left-radius: 3px ;
+    border-top-right-radius: 3px ;
   }
   .project-container{
     background-color: #383838;
     display: grid;
     margin:0;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
   }
    .proj-item{
     margin: 0;
@@ -217,12 +221,5 @@ nav{
     height: 7vh;
     margin:.1vh;
   }
-  
-
-  
-  
-  
-   
-  
 }
 
