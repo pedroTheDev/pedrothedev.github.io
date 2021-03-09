@@ -108,6 +108,8 @@ nav{
      z-index: -1;
      border-radius: 0;
    }
+
+
    .header{
     display:flex;
     justify-content: flex-start;
@@ -119,6 +121,8 @@ nav{
    .logo{
      display: none;
    }
+
+
    .main{
     display:grid;
     grid-template-rows: 2rem 1.5rem;
@@ -136,6 +140,8 @@ nav{
     font-size: 4vw;
     margin:0
   }
+
+
    nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,27 +150,48 @@ nav{
   .nav-item{
     background-color: #383838;
     border-radius: 8px;
-    margin:7rem  1vh 0 0;
+    margin:15vh 2vw 0 0;
+  }
+  .nav-item-links{
+    background-color: #383838;
+    border-radius: 8px;
+    margin:15vh 2vw 0 0;
   }
   
   .nav-item h3{
    color:#898a8c;
    font-size: 2vh;
    margin:1vh;
-  
   }
+
+  .nav-item-links h3{
+    color:#898a8c;
+    font-size: 2vh;
+    margin:1vh;
+   }
+
   .nav-item h2{
     color:#b5b0b0;
     margin:1vh;
-    font-size: 2.6vw;
+    font-size: 2.9vw;
+    text-align: justify;
    }
   
-  .nav-item img{
+  .nav-item-links img{
     color:#b5b0b0;
-    margin:0;
-    width:7vh;
+    margin:1.5vh;
+    width:8vh;
    }
 
+
+   .projects{
+    display:grid;
+    margin:0 0 10vw 0;
+  }
+  .projects h2{
+    margin:0;
+    background-color: black;
+  }
   .project-container{
     background-color: white;
     display: grid;
@@ -175,17 +202,10 @@ nav{
     text-align: center;
   }
   .proj-item img{
-    width:130px;
+    width:1vh;
     margin:1vw;
   }
-  .projects{
-    display:grid;
-    margin:0 0 10vw 0;
-  }
-  .projects h2{
-    margin:0;
-    background-color: black;
-  }
+  
 
   
   
