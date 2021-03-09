@@ -88,20 +88,49 @@ nav{
   text-align: center;
 }
 .proj-item img{
-  width:200px;
+  width:25vh;
+  height:20vh;
 }
 .projects{
   display:grid;
   grid-template-rows: .6fr 2fr;
   background-color: black;
   color: white;
-  margin:9rem 6rem;
+  margin:7rem 6rem 3rem 6rem;
   border-radius: 10px;
 }
 
 .projects h2{
   margin:1rem;
 }
+.offer-container{
+
+  background-color: black;
+  color: #898a8c;
+  margin:2rem 6rem 3rem 6rem;
+  border-radius: 10px;
+}
+
+.offer{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: #898a8c;
+  margin:1rem 6rem;
+  font-size:1.5rem
+}
+.offer-container h2{
+  margin:1rem 1rem 0 1rem;
+  padding: 1rem;
+}
+
+.offer-ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
 @media only screen and (max-width: 500px) {
   body {
     background-color: black;
@@ -200,6 +229,7 @@ nav{
   }
   .projects h2{
     margin:0;
+    padding: 1vh;
     background-color: #383838;
     font-size: 5vw;
     border-top-left-radius: 3px ;
@@ -209,6 +239,7 @@ nav{
     background-color: #383838;
     display: grid;
     margin:0;
+    padding:1vh;
     border-bottom-left-radius: 3px ;
     border-bottom-right-radius: 3px ;
   }
@@ -219,7 +250,36 @@ nav{
   .proj-item img{
     width:9vh;
     height: 7vh;
-    margin:.1vh;
+    margin:0;
+  }
+  .offer-container{
+    display:grid;
+    margin:2.5vh;
+    color:#898a8c;
+  }
+  
+  .offer{
+    background-color: #383838;
+    display: grid;
+    margin:0;
+    border-bottom-left-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+  }
+  .offer-container h2{
+    margin:0;
+    padding: 1vh;
+    background-color: #383838;
+    font-size: 5vw;
+    border-top-left-radius: 3px ;
+    border-top-right-radius: 3px ;
+  }
+  
+  .offer-ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    font-size: 4vw;
   }
 }
 
