@@ -10,25 +10,26 @@ body {
   position: absolute;
   z-index: -1;
   border-radius: 10px;
-  margin-top: 1rem;
+  margin-top: 1vh;
 }
 
 .header{
   display:flex;
   justify-content: flex-start;
-  padding: 5rem 5rem 1rem 6rem;
+  margin:6vh;
   color:gray;
  }
  .logo{
    width:4rem;
-   margin-right: 2rem;
+   margin:0rem 3rem;
  }
  
  .main{
   display:grid;
-  grid-template-rows: 3rem 1rem;
+  grid-template-rows: 3rem 1.5rem;
   justify-content: center;
   text-align: center;
+  margin:0
  }
  .main h1{
    color:#c3c4c7;
@@ -41,8 +42,8 @@ body {
 
 nav{
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  margin:5rem 5rem 1rem 6rem;
+  grid-template-columns: 4fr 1fr;
+  margin:16rem 6rem 1rem 6rem;
 }
 .nav-item{
   background-color: #383838;
@@ -81,14 +82,112 @@ nav{
 }
 .projects{
   display:grid;
-  grid-template-rows: .5fr 2fr;
+  grid-template-rows: .6fr 2fr;
   background-color: black;
   color: white;
-  margin:3rem;
+  margin:9rem 6rem;
   border-radius: 10px;
 }
 
 .projects h2{
   margin:1rem;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+
+  .image-container{
+    display:flex;
+    justify-content: center;
+   }
+   .image{
+     width: 100%;
+     position: absolute;
+     z-index: -1;
+     border-radius: 0;
+   }
+   .header{
+    display:flex;
+    justify-content: flex-start;
+    margin:0;
+    color:gray;
+    font-size: 3vw;
+   }
+   .logo{
+     display: none;
+   }
+   .main{
+    display:grid;
+    grid-template-rows: 2rem 1.5rem;
+    justify-content: center;
+    text-align: center;
+    margin:0;
+   }
+   .main h1{
+     color:#c3c4c7;
+     font-size: 6vw;
+     margin:0
+   }
+   .main h2{
+    color:#898a8c;
+    font-size: 4vw;
+    margin:0
+  }
+   nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0;
+  }
+  .nav-item{
+    background-color: #383838;
+    border-radius: 8px;
+    margin-top:6rem;
+  }
+  
+  .nav-item h3{
+   color:#898a8c;
+   font-size: 1.5rem;
+   margin:1rem;
+  
+  }
+  .nav-item h2{
+    color:#b5b0b0;
+    margin:1rem;
+    font-size: .75rem;
+   }
+  
+  .nav-item a{
+    color:#b5b0b0;
+    margin:3rem;
+   }
+
+  .project-container{
+    background-color: black;
+    display: grid;
+    margin:0;
+  }
+   .proj-item{
+    margin: 0;
+    text-align: center;
+  }
+  .proj-item img{
+    width:130px;
+    margin:1vw;
+  }
+  .projects{
+    display:grid;
+    margin:0 0 10vw 0;
+  }
+  .projects h2{
+    margin:0;
+    background-color: black;
+  }
+
+  
+  
+  
+   
+  
 }
 
