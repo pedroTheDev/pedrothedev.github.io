@@ -81,14 +81,27 @@ nav{
 }
 .projects{
   display:grid;
-  grid-template-rows: .5fr 2fr;
+  grid-template-rows: .5fr 2fr ;
   background-color: black;
-  color: white;
-  margin:3rem;
+  color: #b5b0b0;
+  margin:4rem;
   border-radius: 10px;
 }
 
 .projects h2{
   margin:1rem;
+}
+footer{
+  display:grid;
+  grid-template-rows: 1fr;
+  background-color: black;
+  color: #b5b0b0;
+  margin:4rem;
+  border-radius: 10px;
+}
+
+footer h3{
+  text-align: center;
+
 }
 
